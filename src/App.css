@@ -9,7 +9,18 @@ body{
 
 h2{ 
   color: rgb(209, 31, 31) !important;
+  margin-left: 50px;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.title-notebox{
+  font-size: 24px;
+  color: rgb(209, 31, 31) !important;
   margin-left: 20px;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  word-break: break-all;
 }
 
 label{
@@ -21,7 +32,7 @@ label{
 .vline{
   border-right: 1px solid white;
   height: 100%;
-  position: absolute;
+  position: fixed;
   margin-left: 300px;
 }
 
@@ -37,7 +48,7 @@ label{
 }
 
 .mdown{
-  margin-left: 20px;
+  margin-left: 50px;
   position: fixed;
   bottom: 0 !important;
 }
@@ -70,7 +81,15 @@ input:focus{
 .textContent{
   color:white !important;
   font-size: 22px;
-  margin-left: 20px;
+  margin-left: 50px;
+}
+
+.notebox{
+  cursor:pointer;
+}
+
+.notebox:hover{
+  background-color: rgb(65, 65, 65);
 }
 
 textarea{
