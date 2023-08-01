@@ -1,0 +1,93 @@
+body{
+  background-color: #282c34;
+}
+
+.pd20{ padding: 20px !important;} .pd40{ padding: 40px !important;} .pd60{ padding: 60px !important;} .pd80{ padding: 80px !important;}
+.w300{ width: 300px !important;}
+
+.ml50 { margin-left: 50px !important; } .mr50 { margin-right: 50px !important; }
+
+h2{ 
+  color: rgb(209, 31, 31) !important;
+  margin-left: 20px;
+}
+
+label{
+  color:white;
+  word-break: break-all;
+  margin-left: 20px;
+}
+
+.vline{
+  border-right: 1px solid white;
+  height: 100%;
+  position: absolute;
+  margin-left: 300px;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  float:left;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.mdown{
+  margin-left: 20px;
+  position: fixed;
+  bottom: 0 !important;
+}
+
+button{
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 15px;
+  background-color: rgb(209, 31, 31);
+  border:none;
+  color:white;
+  cursor: pointer;
+}
+
+input{
+  font-size: 18px;
+  color:white;
+  background-color: grey;
+  border: none;
+  width: 1000px;
+  padding: 10px;
+  outline: none;
+  cursor:default;
+}
+
+input:focus{
+  background-color: rgb(152, 151, 151)
+}
+
+.textContent{
+  color:white !important;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+textarea{
+  resize: none;
+  font-size: 18px;
+  color:white;
+  background-color: grey;
+  border: none;
+  width: 1000px;
+  height: 300px;
+  padding: 10px;
+  outline: none;
+  cursor: default;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+textarea:focus{
+  background-color: rgb(152, 151, 151)
+}
